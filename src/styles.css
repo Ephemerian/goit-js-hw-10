@@ -1,0 +1,100 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  background-image: url(/src/images/wallpaperflare.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: #f4e033;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 240px;
+}
+
+.loader {
+  margin: 150px auto;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+.breed-select {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.cat-info {
+  padding-top: 50px;
+  display: flex;
+}
+
+.image-cat {
+  margin-right: 20px;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.cat-title {
+  margin-bottom: 25px;
+}
+
+.desc {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.temperament {
+  font-weight: 700;
+}
+
+.error {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
